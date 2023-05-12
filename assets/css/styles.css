@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(196, 183, 204);
+}
+
+.contenedor {
+    text-align: center;
+}
+
+.cardNegra {
+    background-color: #1c1c1c;
+    height: 350px;
+    width: 35%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: justify;
+    padding: 20px;
+    padding-top: 70px;
+}
+
+#titulo {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#parrafo {
+    color: rgb(177, 173, 173);
+}
+
+#button-addon2 {
+    background-color: rgb(106, 94, 149);
+    color: white;
+}
+
+#inputEmail {
+    background-color: #1c1c1c;
+    color: rgb(201, 195, 195);
+    height: 50px;
+}
+
+#inputEmail::placeholder {
+    color: rgb(201, 195, 195);
+}
+
+@media only screen and (max-width: 1300px) {
+    .cardNegra {
+
+        width: 100%;
+
+    }
+}
